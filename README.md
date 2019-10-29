@@ -9,7 +9,7 @@ This test assumes you have a prolific USB to RS-232 Serial Adapter.
 - First you must install the [prolific driver](https://plugable.com/drivers/prolific) for your Operating System. 
 - After installing and restarting your system, you must next identify the port for testing. For example, on Mac you can run `ls /dev | grep tty.usb` which should return `tty.usbserial`, if your driver was installed correctly.
 - Next, install `@serialport/repl` by running `npm install -g @serialport/repl`
-- *To perform a loopback test for RS-232, the TXD(3) pin must be connected to the RXD(2) pin. - [DE-9 Male diagram](https://user-images.githubusercontent.com/1910114/67594606-b6def000-f732-11e9-9a4d-28951fb50c8f.png)*
+- *The TXD(3) pin must be connected to the RXD(2) pin. - [DE-9 Male diagram](https://user-images.githubusercontent.com/1910114/67594606-b6def000-f732-11e9-9a4d-28951fb50c8f.png)*
 - Now let's perform the test in the serialport repl!
 
 ```sh
