@@ -1,6 +1,6 @@
 # electron-serialport-poc
 
-This test assumes you a prolific USB to RS-232 Serial Adapter.
+This test assumes you have a prolific USB to RS-232 Serial Adapter.
 
 ## Performing Loopback Test
 
