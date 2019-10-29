@@ -32,7 +32,9 @@ serialport-repl {path-to-port} # serialport-repl /dev/tty.usbserial on a Mac
 
 ## Electron App
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+An app is bundled using Electron which leverages [SerialPort](https://github.com/serialport/node-serialport) to display all serial connections. 
+
+You must have [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
 # git clone the repository and run the following
@@ -42,5 +44,3 @@ npm install
 # Run the app
 npm start
 ```
-
-This will start an electron app which will list out any serial connections which the serialport library can discover.
