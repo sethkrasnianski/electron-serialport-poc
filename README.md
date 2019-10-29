@@ -25,6 +25,11 @@ serialport-repl {path-to-port} # serialport-repl /dev/tty.usbserial on a Mac
 > output.toString(); # should be "Hello World!"
 ```
 
+### Documentation
+
+- [How to Do a Serial Loopback Test](http://www.ni.com/tutorial/3450/en/)
+- [SerialPort Docs](https://serialport.io/docs/guide-about)
+
 ## Electron App
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
